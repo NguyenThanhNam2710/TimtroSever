@@ -41,7 +41,7 @@ app.get('/getDL', async function (request, response) {
 // nhận thông tin khách hàng để tạo tài khoản
 app.post('/postUser', async function (request, response) {
     let nPhone = request.body.phone;
-    let nFullName = request.body.fullName
+    let nFullName = request.body.fullname;
     let nPassword = request.body.password;
     let nPassword2 = request.body.password2;
 
